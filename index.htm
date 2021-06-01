@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bump mapping</title>
+</head>
+
+<style>
+    .changeMap {
+        position: absolute;
+        right: 50px;
+        top: 50px;
+        background-color: rgba(255,255,255, 0.1);
+        z-index: 999999;
+    }
+
+    .changeMap div {
+        /* background-color: blue; */
+        padding: 10px;
+        float: left;
+        cursor: pointer;
+    }
+
+    .changeMap div.active {
+        background-color: rgba(255,255,255, 0.3);
+    }
+</style>
+<body>
+    <div class="changeMap">
+        <div class="changeMap_on active">ON</div>
+        <div class="changeMap_off">OFF</div>
+    </div>
+</body>
+
+
+
+<script src="main.js" type="module"></script>
+</html>
