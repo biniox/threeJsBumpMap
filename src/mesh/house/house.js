@@ -469,9 +469,6 @@ const loadHouseScenePromise = () => {
           pavementMaterial,
           roadMaterialWithoutNormal,
           roadMaterial
-
-
-
         }
 
 

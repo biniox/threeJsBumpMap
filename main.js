@@ -162,10 +162,6 @@ objects.push(Box8);
  
     loadHouseScenePromise().then((data) => {house = data; scene.add(house)})
 
-  // if (statsEnabled) {
-  //   stats = new Stats();
-  //   container.appendChild(stats.dom);
-  // }
 
   // EVENTS
 
